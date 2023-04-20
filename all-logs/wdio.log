@@ -1,0 +1,9 @@
+2023-04-20T10:23:34.384Z INFO chromedriver: Initiate Chromedriver Launcher (v8.1.1)
+2023-04-20T10:23:34.385Z INFO @wdio/cli:launcher: Run onPrepare hook
+2023-04-20T10:23:34.389Z INFO chromedriver: Start Chromedriver (/Users/estehsan/node_modules/chromedriver/lib/chromedriver/chromedriver) with args --port=9515 --url-base=/
+2023-04-20T10:23:34.912Z INFO @wdio/cli:launcher: Run onWorkerStart hook
+2023-04-20T10:23:34.913Z INFO @wdio/local-runner: Start worker 0-0 with arg: run,./wdio.conf.js
+2023-04-20T10:23:58.786Z INFO @wdio/cli:launcher: Run onWorkerEnd hook
+2023-04-20T10:23:58.787Z INFO @wdio/cli:launcher: Run onComplete hook
+2023-04-20T10:23:58.810Z INFO @wdio/local-runner: Shutting down spawned worker
+2023-04-20T10:23:59.061Z INFO @wdio/local-runner: Waiting for 0 to shut down gracefully

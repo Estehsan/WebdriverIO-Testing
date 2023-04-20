@@ -3,7 +3,7 @@ class VolvoPage {
     return $("#onetrust-accept-btn-handler");
   }
   get HeroVideo() {
-    return $('//*[@id="Video-1"]/section/div/div/div/button/span');
+    return $$("//*[@data-autoid='videoTestimonials:container']");
   }
   // List of all videos
 
@@ -12,7 +12,7 @@ class VolvoPage {
   }
 
   get MainMenu() {
-    return $("//button[@id='sitenav-sidenav-toggle']");
+    return $("sitenav-sidenav-toggle");
   }
 
   get MenuExpand() {

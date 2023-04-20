@@ -1,0 +1,221 @@
+2023-04-20T10:23:36.153Z INFO @wdio/local-runner: Run worker command: run
+2023-04-20T10:23:36.533Z INFO webdriver: Initiate new session using the WebDriver protocol
+2023-04-20T10:23:36.685Z INFO webdriver: [POST] http://localhost:9515/session
+2023-04-20T10:23:36.685Z INFO webdriver: DATA {
+  capabilities: {
+    alwaysMatch: {
+      browserName: 'chrome',
+      acceptInsecureCerts: true,
+      'goog:chromeOptions': [Object]
+    },
+    firstMatch: [ {} ]
+  },
+  desiredCapabilities: {
+    browserName: 'chrome',
+    acceptInsecureCerts: true,
+    'goog:chromeOptions': { args: [Array] }
+  }
+}
+2023-04-20T10:23:37.361Z INFO webdriver: COMMAND navigateTo("https://www.volvocars.com/intl/v/car-safety/a-million-more")
+2023-04-20T10:23:37.361Z INFO webdriver: [POST] http://localhost:9515/session/2412b22d10b259184f6bf23475c25322/url
+2023-04-20T10:23:37.361Z INFO webdriver: DATA { url: 'https://www.volvocars.com/intl/v/car-safety/a-million-more' }
+2023-04-20T10:23:37.598Z INFO webdriver: RESULT null
+2023-04-20T10:23:37.605Z INFO webdriver: COMMAND getUrl()
+2023-04-20T10:23:37.605Z INFO webdriver: [GET] http://localhost:9515/session/2412b22d10b259184f6bf23475c25322/url
+2023-04-20T10:23:37.618Z INFO webdriver: RESULT https://www.volvocars.com/intl/v/car-safety/a-million-more
+2023-04-20T10:23:37.642Z INFO webdriver: COMMAND getTitle()
+2023-04-20T10:23:37.642Z INFO webdriver: [GET] http://localhost:9515/session/2412b22d10b259184f6bf23475c25322/title
+2023-04-20T10:23:37.654Z INFO webdriver: RESULT Access Denied
+2023-04-20T10:23:38.156Z INFO webdriver: COMMAND getTitle()
+2023-04-20T10:23:38.157Z INFO webdriver: [GET] http://localhost:9515/session/2412b22d10b259184f6bf23475c25322/title
+2023-04-20T10:23:38.163Z INFO webdriver: RESULT Access Denied
+2023-04-20T10:23:38.665Z INFO webdriver: COMMAND getTitle()
+2023-04-20T10:23:38.666Z INFO webdriver: [GET] http://localhost:9515/session/2412b22d10b259184f6bf23475c25322/title
+2023-04-20T10:23:38.674Z INFO webdriver: RESULT Access Denied
+2023-04-20T10:23:39.177Z INFO webdriver: COMMAND getTitle()
+2023-04-20T10:23:39.178Z INFO webdriver: [GET] http://localhost:9515/session/2412b22d10b259184f6bf23475c25322/title
+2023-04-20T10:23:39.191Z INFO webdriver: RESULT Access Denied
+2023-04-20T10:23:39.693Z INFO webdriver: COMMAND getTitle()
+2023-04-20T10:23:39.693Z INFO webdriver: [GET] http://localhost:9515/session/2412b22d10b259184f6bf23475c25322/title
+2023-04-20T10:23:39.701Z INFO webdriver: RESULT Access Denied
+2023-04-20T10:23:40.203Z INFO webdriver: COMMAND getTitle()
+2023-04-20T10:23:40.203Z INFO webdriver: [GET] http://localhost:9515/session/2412b22d10b259184f6bf23475c25322/title
+2023-04-20T10:23:40.211Z INFO webdriver: RESULT Access Denied
+2023-04-20T10:23:40.713Z INFO webdriver: COMMAND getTitle()
+2023-04-20T10:23:40.713Z INFO webdriver: [GET] http://localhost:9515/session/2412b22d10b259184f6bf23475c25322/title
+2023-04-20T10:23:40.720Z INFO webdriver: RESULT Access Denied
+2023-04-20T10:23:41.221Z INFO webdriver: COMMAND getTitle()
+2023-04-20T10:23:41.221Z INFO webdriver: [GET] http://localhost:9515/session/2412b22d10b259184f6bf23475c25322/title
+2023-04-20T10:23:41.234Z INFO webdriver: RESULT Access Denied
+2023-04-20T10:23:41.736Z INFO webdriver: COMMAND getTitle()
+2023-04-20T10:23:41.737Z INFO webdriver: [GET] http://localhost:9515/session/2412b22d10b259184f6bf23475c25322/title
+2023-04-20T10:23:41.742Z INFO webdriver: RESULT Access Denied
+2023-04-20T10:23:42.244Z INFO webdriver: COMMAND getTitle()
+2023-04-20T10:23:42.244Z INFO webdriver: [GET] http://localhost:9515/session/2412b22d10b259184f6bf23475c25322/title
+2023-04-20T10:23:42.252Z INFO webdriver: RESULT Access Denied
+2023-04-20T10:23:42.753Z INFO webdriver: COMMAND getTitle()
+2023-04-20T10:23:42.753Z INFO webdriver: [GET] http://localhost:9515/session/2412b22d10b259184f6bf23475c25322/title
+2023-04-20T10:23:42.760Z INFO webdriver: RESULT Access Denied
+2023-04-20T10:23:43.261Z INFO webdriver: COMMAND getTitle()
+2023-04-20T10:23:43.261Z INFO webdriver: [GET] http://localhost:9515/session/2412b22d10b259184f6bf23475c25322/title
+2023-04-20T10:23:43.268Z INFO webdriver: RESULT Access Denied
+2023-04-20T10:23:43.770Z INFO webdriver: COMMAND getTitle()
+2023-04-20T10:23:43.770Z INFO webdriver: [GET] http://localhost:9515/session/2412b22d10b259184f6bf23475c25322/title
+2023-04-20T10:23:43.775Z INFO webdriver: RESULT Access Denied
+2023-04-20T10:23:44.276Z INFO webdriver: COMMAND getTitle()
+2023-04-20T10:23:44.276Z INFO webdriver: [GET] http://localhost:9515/session/2412b22d10b259184f6bf23475c25322/title
+2023-04-20T10:23:44.283Z INFO webdriver: RESULT Access Denied
+2023-04-20T10:23:44.785Z INFO webdriver: COMMAND getTitle()
+2023-04-20T10:23:44.785Z INFO webdriver: [GET] http://localhost:9515/session/2412b22d10b259184f6bf23475c25322/title
+2023-04-20T10:23:44.790Z INFO webdriver: RESULT Access Denied
+2023-04-20T10:23:45.292Z INFO webdriver: COMMAND getTitle()
+2023-04-20T10:23:45.292Z INFO webdriver: [GET] http://localhost:9515/session/2412b22d10b259184f6bf23475c25322/title
+2023-04-20T10:23:45.297Z INFO webdriver: RESULT Access Denied
+2023-04-20T10:23:45.799Z INFO webdriver: COMMAND getTitle()
+2023-04-20T10:23:45.799Z INFO webdriver: [GET] http://localhost:9515/session/2412b22d10b259184f6bf23475c25322/title
+2023-04-20T10:23:45.804Z INFO webdriver: RESULT Access Denied
+2023-04-20T10:23:46.307Z INFO webdriver: COMMAND getTitle()
+2023-04-20T10:23:46.307Z INFO webdriver: [GET] http://localhost:9515/session/2412b22d10b259184f6bf23475c25322/title
+2023-04-20T10:23:46.315Z INFO webdriver: RESULT Access Denied
+2023-04-20T10:23:46.816Z INFO webdriver: COMMAND getTitle()
+2023-04-20T10:23:46.816Z INFO webdriver: [GET] http://localhost:9515/session/2412b22d10b259184f6bf23475c25322/title
+2023-04-20T10:23:46.821Z INFO webdriver: RESULT Access Denied
+2023-04-20T10:23:47.322Z INFO webdriver: COMMAND getTitle()
+2023-04-20T10:23:47.323Z INFO webdriver: [GET] http://localhost:9515/session/2412b22d10b259184f6bf23475c25322/title
+2023-04-20T10:23:47.331Z INFO webdriver: RESULT Access Denied
+2023-04-20T10:23:47.836Z INFO webdriver: COMMAND takeScreenshot()
+2023-04-20T10:23:47.836Z INFO webdriver: [GET] http://localhost:9515/session/2412b22d10b259184f6bf23475c25322/screenshot
+2023-04-20T10:23:48.201Z INFO webdriver: RESULT iVBORw0KGgoAAAANSUhEUgAAC0AAAAW+CAYAAAD06KFUAAABLmlDQ1BTa2lhA...
+2023-04-20T10:23:48.214Z INFO webdriver: COMMAND findElement("css selector", "#onetrust-accept-btn-handler")
+2023-04-20T10:23:48.215Z INFO webdriver: [POST] http://localhost:9515/session/2412b22d10b259184f6bf23475c25322/element
+2023-04-20T10:23:48.215Z INFO webdriver: DATA { using: 'css selector', value: '#onetrust-accept-btn-handler' }
+2023-04-20T10:23:48.234Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'no such element: Unable to locate element: {"method":"css selector","selector":"#onetrust-accept-btn-handler"}\n' +
+    '  (Session info: headless chrome=112.0.5615.137)',
+  stacktrace: '0   chromedriver                        0x0000000101a55ae8 chromedriver + 4958952\n' +
+    '1   chromedriver                        0x0000000101a4d7b3 chromedriver + 4925363\n' +
+    '2   chromedriver                        0x000000010160f1d6 chromedriver + 475606\n' +
+    '3   chromedriver                        0x0000000101652a20 chromedriver + 752160\n' +
+    '4   chromedriver                        0x0000000101652c81 chromedriver + 752769\n' +
+    '5   chromedriver                        0x0000000101696f64 chromedriver + 1032036\n' +
+    '6   chromedriver                        0x0000000101678c3d chromedriver + 908349\n' +
+    '7   chromedriver                        0x000000010169425b chromedriver + 1020507\n' +
+    '8   chromedriver                        0x00000001016789e3 chromedriver + 907747\n' +
+    '9   chromedriver                        0x0000000101642aef chromedriver + 686831\n' +
+    '10  chromedriver                        0x000000010164400e chromedriver + 692238\n' +
+    '11  chromedriver                        0x0000000101a119ad chromedriver + 4680109\n' +
+    '12  chromedriver                        0x0000000101a16c12 chromedriver + 4701202\n' +
+    '13  chromedriver                        0x0000000101a1d79f chromedriver + 4728735\n' +
+    '14  chromedriver                        0x0000000101a17b7a chromedriver + 4705146\n' +
+    '15  chromedriver                        0x00000001019ea27e chromedriver + 4518526\n' +
+    '16  chromedriver                        0x0000000101a37908 chromedriver + 4835592\n' +
+    '17  chromedriver                        0x0000000101a37a87 chromedriver + 4835975\n' +
+    '18  chromedriver                        0x0000000101a4700f chromedriver + 4898831\n' +
+    '19  libsystem_pthread.dylib             0x00007ff81a6151d3 _pthread_start + 125\n' +
+    '20  libsystem_pthread.dylib             0x00007ff81a610bd3 thread_start + 15\n'
+}
+2023-04-20T10:23:48.247Z INFO webdriver: COMMAND findElements("css selector", "#onetrust-accept-btn-handler")
+2023-04-20T10:23:48.247Z INFO webdriver: [POST] http://localhost:9515/session/2412b22d10b259184f6bf23475c25322/elements
+2023-04-20T10:23:48.247Z INFO webdriver: DATA { using: 'css selector', value: '#onetrust-accept-btn-handler' }
+2023-04-20T10:23:48.259Z INFO webdriver: RESULT []
+2023-04-20T10:23:48.747Z INFO webdriver: COMMAND findElements("css selector", "#onetrust-accept-btn-handler")
+2023-04-20T10:23:48.747Z INFO webdriver: [POST] http://localhost:9515/session/2412b22d10b259184f6bf23475c25322/elements
+2023-04-20T10:23:48.747Z INFO webdriver: DATA { using: 'css selector', value: '#onetrust-accept-btn-handler' }
+2023-04-20T10:23:48.754Z INFO webdriver: RESULT []
+2023-04-20T10:23:49.246Z INFO webdriver: COMMAND findElements("css selector", "#onetrust-accept-btn-handler")
+2023-04-20T10:23:49.246Z INFO webdriver: [POST] http://localhost:9515/session/2412b22d10b259184f6bf23475c25322/elements
+2023-04-20T10:23:49.246Z INFO webdriver: DATA { using: 'css selector', value: '#onetrust-accept-btn-handler' }
+2023-04-20T10:23:49.256Z INFO webdriver: RESULT []
+2023-04-20T10:23:49.747Z INFO webdriver: COMMAND findElements("css selector", "#onetrust-accept-btn-handler")
+2023-04-20T10:23:49.747Z INFO webdriver: [POST] http://localhost:9515/session/2412b22d10b259184f6bf23475c25322/elements
+2023-04-20T10:23:49.747Z INFO webdriver: DATA { using: 'css selector', value: '#onetrust-accept-btn-handler' }
+2023-04-20T10:23:49.756Z INFO webdriver: RESULT []
+2023-04-20T10:23:50.246Z INFO webdriver: COMMAND findElements("css selector", "#onetrust-accept-btn-handler")
+2023-04-20T10:23:50.246Z INFO webdriver: [POST] http://localhost:9515/session/2412b22d10b259184f6bf23475c25322/elements
+2023-04-20T10:23:50.246Z INFO webdriver: DATA { using: 'css selector', value: '#onetrust-accept-btn-handler' }
+2023-04-20T10:23:50.254Z INFO webdriver: RESULT []
+2023-04-20T10:23:50.746Z INFO webdriver: COMMAND findElements("css selector", "#onetrust-accept-btn-handler")
+2023-04-20T10:23:50.746Z INFO webdriver: [POST] http://localhost:9515/session/2412b22d10b259184f6bf23475c25322/elements
+2023-04-20T10:23:50.746Z INFO webdriver: DATA { using: 'css selector', value: '#onetrust-accept-btn-handler' }
+2023-04-20T10:23:50.753Z INFO webdriver: RESULT []
+2023-04-20T10:23:51.281Z INFO webdriver: COMMAND findElements("css selector", "#onetrust-accept-btn-handler")
+2023-04-20T10:23:51.282Z INFO webdriver: [POST] http://localhost:9515/session/2412b22d10b259184f6bf23475c25322/elements
+2023-04-20T10:23:51.282Z INFO webdriver: DATA { using: 'css selector', value: '#onetrust-accept-btn-handler' }
+2023-04-20T10:23:51.299Z INFO webdriver: RESULT []
+2023-04-20T10:23:51.747Z INFO webdriver: COMMAND findElements("css selector", "#onetrust-accept-btn-handler")
+2023-04-20T10:23:51.748Z INFO webdriver: [POST] http://localhost:9515/session/2412b22d10b259184f6bf23475c25322/elements
+2023-04-20T10:23:51.748Z INFO webdriver: DATA { using: 'css selector', value: '#onetrust-accept-btn-handler' }
+2023-04-20T10:23:51.757Z INFO webdriver: RESULT []
+2023-04-20T10:23:52.248Z INFO webdriver: COMMAND findElements("css selector", "#onetrust-accept-btn-handler")
+2023-04-20T10:23:52.249Z INFO webdriver: [POST] http://localhost:9515/session/2412b22d10b259184f6bf23475c25322/elements
+2023-04-20T10:23:52.249Z INFO webdriver: DATA { using: 'css selector', value: '#onetrust-accept-btn-handler' }
+2023-04-20T10:23:52.260Z INFO webdriver: RESULT []
+2023-04-20T10:23:52.747Z INFO webdriver: COMMAND findElements("css selector", "#onetrust-accept-btn-handler")
+2023-04-20T10:23:52.748Z INFO webdriver: [POST] http://localhost:9515/session/2412b22d10b259184f6bf23475c25322/elements
+2023-04-20T10:23:52.748Z INFO webdriver: DATA { using: 'css selector', value: '#onetrust-accept-btn-handler' }
+2023-04-20T10:23:52.757Z INFO webdriver: RESULT []
+2023-04-20T10:23:53.246Z INFO webdriver: COMMAND findElements("css selector", "#onetrust-accept-btn-handler")
+2023-04-20T10:23:53.247Z INFO webdriver: [POST] http://localhost:9515/session/2412b22d10b259184f6bf23475c25322/elements
+2023-04-20T10:23:53.247Z INFO webdriver: DATA { using: 'css selector', value: '#onetrust-accept-btn-handler' }
+2023-04-20T10:23:53.254Z INFO webdriver: RESULT []
+2023-04-20T10:23:53.746Z INFO webdriver: COMMAND findElements("css selector", "#onetrust-accept-btn-handler")
+2023-04-20T10:23:53.746Z INFO webdriver: [POST] http://localhost:9515/session/2412b22d10b259184f6bf23475c25322/elements
+2023-04-20T10:23:53.746Z INFO webdriver: DATA { using: 'css selector', value: '#onetrust-accept-btn-handler' }
+2023-04-20T10:23:53.753Z INFO webdriver: RESULT []
+2023-04-20T10:23:54.246Z INFO webdriver: COMMAND findElements("css selector", "#onetrust-accept-btn-handler")
+2023-04-20T10:23:54.246Z INFO webdriver: [POST] http://localhost:9515/session/2412b22d10b259184f6bf23475c25322/elements
+2023-04-20T10:23:54.246Z INFO webdriver: DATA { using: 'css selector', value: '#onetrust-accept-btn-handler' }
+2023-04-20T10:23:54.253Z INFO webdriver: RESULT []
+2023-04-20T10:23:54.746Z INFO webdriver: COMMAND findElements("css selector", "#onetrust-accept-btn-handler")
+2023-04-20T10:23:54.746Z INFO webdriver: [POST] http://localhost:9515/session/2412b22d10b259184f6bf23475c25322/elements
+2023-04-20T10:23:54.746Z INFO webdriver: DATA { using: 'css selector', value: '#onetrust-accept-btn-handler' }
+2023-04-20T10:23:54.757Z INFO webdriver: RESULT []
+2023-04-20T10:23:55.246Z INFO webdriver: COMMAND findElements("css selector", "#onetrust-accept-btn-handler")
+2023-04-20T10:23:55.246Z INFO webdriver: [POST] http://localhost:9515/session/2412b22d10b259184f6bf23475c25322/elements
+2023-04-20T10:23:55.246Z INFO webdriver: DATA { using: 'css selector', value: '#onetrust-accept-btn-handler' }
+2023-04-20T10:23:55.253Z INFO webdriver: RESULT []
+2023-04-20T10:23:55.746Z INFO webdriver: COMMAND findElements("css selector", "#onetrust-accept-btn-handler")
+2023-04-20T10:23:55.746Z INFO webdriver: [POST] http://localhost:9515/session/2412b22d10b259184f6bf23475c25322/elements
+2023-04-20T10:23:55.747Z INFO webdriver: DATA { using: 'css selector', value: '#onetrust-accept-btn-handler' }
+2023-04-20T10:23:55.755Z INFO webdriver: RESULT []
+2023-04-20T10:23:56.246Z INFO webdriver: COMMAND findElements("css selector", "#onetrust-accept-btn-handler")
+2023-04-20T10:23:56.246Z INFO webdriver: [POST] http://localhost:9515/session/2412b22d10b259184f6bf23475c25322/elements
+2023-04-20T10:23:56.246Z INFO webdriver: DATA { using: 'css selector', value: '#onetrust-accept-btn-handler' }
+2023-04-20T10:23:56.254Z INFO webdriver: RESULT []
+2023-04-20T10:23:56.746Z INFO webdriver: COMMAND findElements("css selector", "#onetrust-accept-btn-handler")
+2023-04-20T10:23:56.747Z INFO webdriver: [POST] http://localhost:9515/session/2412b22d10b259184f6bf23475c25322/elements
+2023-04-20T10:23:56.747Z INFO webdriver: DATA { using: 'css selector', value: '#onetrust-accept-btn-handler' }
+2023-04-20T10:23:56.753Z INFO webdriver: RESULT []
+2023-04-20T10:23:57.247Z INFO webdriver: COMMAND findElements("css selector", "#onetrust-accept-btn-handler")
+2023-04-20T10:23:57.247Z INFO webdriver: [POST] http://localhost:9515/session/2412b22d10b259184f6bf23475c25322/elements
+2023-04-20T10:23:57.247Z INFO webdriver: DATA { using: 'css selector', value: '#onetrust-accept-btn-handler' }
+2023-04-20T10:23:57.258Z INFO webdriver: RESULT []
+2023-04-20T10:23:57.745Z INFO webdriver: COMMAND findElements("css selector", "#onetrust-accept-btn-handler")
+2023-04-20T10:23:57.745Z INFO webdriver: [POST] http://localhost:9515/session/2412b22d10b259184f6bf23475c25322/elements
+2023-04-20T10:23:57.745Z INFO webdriver: DATA { using: 'css selector', value: '#onetrust-accept-btn-handler' }
+2023-04-20T10:23:57.751Z INFO webdriver: RESULT []
+2023-04-20T10:23:58.246Z INFO webdriver: COMMAND takeScreenshot()
+2023-04-20T10:23:58.246Z INFO webdriver: [GET] http://localhost:9515/session/2412b22d10b259184f6bf23475c25322/screenshot
+2023-04-20T10:23:58.577Z INFO webdriver: RESULT iVBORw0KGgoAAAANSUhEUgAAC0AAAAW+CAYAAAD06KFUAAABLmlDQ1BTa2lhA...
+2023-04-20T10:23:58.582Z INFO webdriver: COMMAND getLogTypes()
+2023-04-20T10:23:58.582Z INFO webdriver: [GET] http://localhost:9515/session/2412b22d10b259184f6bf23475c25322/se/log/types
+2023-04-20T10:23:58.587Z INFO webdriver: RESULT [ 'browser', 'driver' ]
+2023-04-20T10:23:58.587Z INFO webdriver: COMMAND getLogs("driver")
+2023-04-20T10:23:58.587Z INFO webdriver: COMMAND getLogs("browser")
+2023-04-20T10:23:58.588Z INFO webdriver: [POST] http://localhost:9515/session/2412b22d10b259184f6bf23475c25322/se/log
+2023-04-20T10:23:58.588Z INFO webdriver: DATA { type: 'driver' }
+2023-04-20T10:23:58.588Z INFO webdriver: [POST] http://localhost:9515/session/2412b22d10b259184f6bf23475c25322/se/log
+2023-04-20T10:23:58.588Z INFO webdriver: DATA { type: 'browser' }
+2023-04-20T10:23:58.598Z INFO webdriver: RESULT []
+2023-04-20T10:23:58.601Z INFO webdriver: RESULT [
+  {
+    level: 'SEVERE',
+    message: 'https://www.volvocars.com/intl/v/car-safety/a-million-more - Failed to load resource: the server responded with a status of 403 ()',
+    source: 'network',
+    timestamp: 1681986217566
+  }
+]
+2023-04-20T10:23:58.605Z INFO webdriver: COMMAND deleteSession()
+2023-04-20T10:23:58.605Z INFO webdriver: [DELETE] http://localhost:9515/session/2412b22d10b259184f6bf23475c25322
+2023-04-20T10:23:58.662Z INFO webdriver: RESULT null

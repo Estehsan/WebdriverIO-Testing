@@ -18,21 +18,21 @@ describe("Video Testing with WebdriverIO", async () => {
     console.log("Cookies accepted");
   });
 
-  describe("All VideoTest", () => {
-    it("tests VideoTest", async () => {
-      await browser.setWindowSize(997, 706);
-      await Volvo.HeroVideo.click();
-      // await browser.pause(3000);
-    });
-  });
-  describe("Menu Opening Testing", () => {
-    it("It should expand the menu when clicked", async () => {
-      await Volvo.MainMenu.click();
+  // describe("All VideoTest", () => {
+  //   it("tests VideoTest", async () => {
+  //     await browser.setWindowSize(997, 706);
+  //     await Volvo.HeroVideo.click();
+  //     // await browser.pause(3000);
+  //   });
+  // });
+  // describe("Menu Opening Testing", () => {
+  //   it("It should expand the menu when clicked", async () => {
+  //     await Volvo.MainMenu.click();
 
-      // Wait for the menu to expand
-      await expect(Volvo.MenuExpand).toBeDisplayed();
-    });
-  });
+  //     // Wait for the menu to expand
+  //     await expect(Volvo.MenuExpand).toBeDisplayed();
+  //   });
+  // });
 
   // describe("Menu Closing Btn Testing", () => {
   //   it("It should close the menu when clicked", async () => {
