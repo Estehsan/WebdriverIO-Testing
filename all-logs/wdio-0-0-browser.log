@@ -1,1 +1,5 @@
-{"level":"SEVERE","message":"https://www.volvocars.com/intl/v/car-safety/a-million-more - Failed to load resource: the server responded with a status of 403 ()","source":"network","timestamp":1681986217566}
+{"level":"SEVERE","message":"https://www.volvocars.com/static/shared/images/favicons/favicon-16x16.v2.svg - Failed to load resource: the server responded with a status of 403 ()","source":"network","timestamp":1682015308604}
+{"level":"SEVERE","message":"https://www.volvocars.com/static/shared/images/favicons/favicon-32x32.v2.png - Failed to load resource: the server responded with a status of 403 ()","source":"network","timestamp":1682015308625}
+{"level":"SEVERE","message":"https://www.volvocars.com/static/shared/images/favicons/favicon-16x16.v2.png - Failed to load resource: the server responded with a status of 403 ()","source":"network","timestamp":1682015308723}
+{"level":"SEVERE","message":"https://www.volvocars.com/static/shared/images/favicons/favicon-192x192.v2.png - Failed to load resource: the server responded with a status of 403 ()","source":"network","timestamp":1682015308765}
+{"level":"SEVERE","message":"https://www.volvocars.com/intl/v/car-safety/a-million-more - Failed to load resource: the server responded with a status of 403 ()","source":"network","timestamp":1682015309570}

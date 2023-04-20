@@ -1,4 +1,5 @@
 const { default: ChromeDriverService } = require("wdio-chromedriver-service");
+const { join } = require("path");
 
 exports.config = {
   outputDir: "all-logs",
@@ -54,25 +55,25 @@ exports.config = {
   // https://saucelabs.com/platform/platform-configurator
   //
   capabilities: [
+    {
+      maxInstances: 5,
+      browserName: "chrome",
+      acceptInsecureCerts: true,
+    },
     // {
     //   maxInstances: 5,
     //   browserName: "chrome",
     //   acceptInsecureCerts: true,
+    //   "goog:chromeOptions": {
+    //     args: [
+    //       "--no-sandbox",
+    //       "--disable-infobars",
+    //       "--headless",
+    //       "--disable-gpu",
+    //       "--window-size=1440,735",
+    //     ],
+    //   },
     // },
-    {
-      maxInstances: 1,
-      browserName: "chrome",
-      acceptInsecureCerts: true,
-      "goog:chromeOptions": {
-        args: [
-          "--no-sandbox",
-          "--disable-infobars",
-          "--headless",
-          "--disable-gpu",
-          "--window-size=1440,735",
-        ],
-      },
-    },
     // },
 
     // {
@@ -141,9 +142,9 @@ exports.config = {
       // The options
       {
         // Some options, see the docs for more
-        // baselineFolder: join(process.cwd(), "./tests/sauceLabsBaseline/"),
-        // formatImageName: "{tag}-{logName}-{width}x{height}",
-        // screenshotPath: join(process.cwd(), ".tmp/"),
+        baselineFolder: join(process.cwd(), "./Baseline/"),
+        formatImageName: "{tag}-{logName}-{width}x{height}",
+        screenshotPath: join(process.cwd(), "./ActualImages/"),
         savePerInstance: true,
         autoSaveBaseline: true,
         blockOutStatusBar: true,

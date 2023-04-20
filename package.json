@@ -23,6 +23,7 @@
   },
   "dependencies": {
     "mocha": "^10.2.0",
-    "wdio-docker-service": "^3.2.1"
+    "wdio-docker-service": "^3.2.1",
+    "wdio-image-comparison-service": "^5.0.2"
   }
 }
