@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "//nav[@id='nav:sideNavigation']"
-}

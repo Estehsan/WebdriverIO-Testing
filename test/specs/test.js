@@ -18,40 +18,43 @@ describe("Video Testing with WebdriverIO", async () => {
     console.log("Cookies accepted");
   });
 
-  // describe("All VideoTest", () => {
-  //   it("tests VideoTest", async () => {
-  //     await browser.setWindowSize(997, 706);
-  //     await Volvo.HeroVideo.click();
-  //     // await browser.pause(3000);
-  //   });
-  // });
-  // describe("Menu Opening Testing", () => {
-  //   it("It should expand the menu when clicked", async () => {
-  //     await Volvo.MainMenu.click();
+  it("Testimonials Video", async () => {
+    (await Volvo.VideoTestimonials).scrollIntoView();
+    // wait
+    await Volvo.VideoTestimonials.click();
+    // await browser.pause(3000);
 
-  //     // Wait for the menu to expand
-  //     await expect(Volvo.MenuExpand).toBeDisplayed();
-  //   });
-  // });
+    // await expect(Volvo.VideoTestimonialsVideo).toBeDisplayed();
+  });
 
-  // describe("Menu Closing Btn Testing", () => {
-  //   it("It should close the menu when clicked", async () => {
-  //     await Volvo.MenuClose.click();
-  //     await expect(Volvo.MenuExpand).toBeDisplayed(false);
-  //   });
+  // it("tests VideoTest", async () => {
+  //   await browser.setWindowSize(997, 706);
+  //   await Volvo.HeroVideo.click();
+  //   // await browser.pause(3000);
   // });
 
-  // describe("Our Car Menu Btn", () => {
-  //   it("It should expand the menu when clicked", async () => {
-  //     await Volvo.OurCarMenu.click();
-  //     await expect(Volvo.OurCarMenuExpand).toBeDisplayed();
-  //   });
+  it("It should expand the menu when clicked", async () => {
+    await Volvo.MainMenu.click();
+
+    // Wait for the menu to expand
+    await expect(Volvo.MenuExpand).toBeDisplayed();
+  });
+
+  it("It should close the menu when clicked", async () => {
+    // wait
+    await browser.pause(1500);
+
+    await Volvo.MenuClose.click();
+    await expect(Volvo.MenuExpand).toBeDisplayed(false);
+  });
+
+  // it("It should expand the menu when clicked", async () => {
+  //   await Volvo.OurCarMenu.click();
+  //   // await expect(Volvo.OurCarMenuExpand).toBeDisplayed();
   // });
 
-  // describe("Our Car Closing Btn", () => {
-  //   it("It should close the menu when clicked", async () => {
-  //     await Volvo.OurCarMenuClose.click();
-  //     await expect(Volvo.OurCarMenuExpand).toBeDisplayed(false);
-  //   });
+  // it("It should close the menu when clicked", async () => {
+  //   await Volvo.OurCarMenuClose.click();
+  //   await expect(Volvo.OurCarMenuExpand).toBeDisplayed(false);
   // });
 });
