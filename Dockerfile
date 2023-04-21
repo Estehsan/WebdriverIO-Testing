@@ -5,5 +5,3 @@ ADD . /app
 RUN npm install
 
 CMD npx wdio
-
-
