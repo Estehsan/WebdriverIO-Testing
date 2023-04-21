@@ -1,6 +1,6 @@
-2023-04-21T12:44:29.968Z INFO chromedriver: Initiate Chromedriver Launcher (v8.1.1)
-2023-04-21T12:44:29.969Z INFO @wdio/cli:launcher: Run onPrepare hook
-2023-04-21T12:44:29.970Z ERROR @wdio/cli:utils: A service failed in the 'onPrepare' hook
+2023-04-21T13:28:06.232Z INFO chromedriver: Initiate Chromedriver Launcher (v8.1.1)
+2023-04-21T13:28:06.233Z INFO @wdio/cli:launcher: Run onPrepare hook
+2023-04-21T13:28:06.235Z ERROR @wdio/cli:utils: A service failed in the 'onPrepare' hook
 TypeError: Cannot read properties of undefined (reading 'args')
     at DockerLauncher.onPrepare (/Users/estehsan/Documents/Coders/Testing/volvo/node_modules/wdio-docker-service/lib/launcher.js:30:9)
     at file:///Users/estehsan/node_modules/@wdio/cli/build/utils.js:42:40
@@ -9,10 +9,10 @@ TypeError: Cannot read properties of undefined (reading 'args')
     at Launcher.run (file:///Users/estehsan/node_modules/@wdio/cli/build/launcher.js:82:19)
 
 Continue...
-2023-04-21T12:44:29.971Z INFO chromedriver: Start Chromedriver (/Users/estehsan/node_modules/chromedriver/lib/chromedriver/chromedriver) with args --port=9515 --url-base=/
-2023-04-21T12:44:30.083Z INFO @wdio/cli:launcher: Run onWorkerStart hook
-2023-04-21T12:44:30.084Z INFO @wdio/local-runner: Start worker 0-0 with arg: run,wdio.conf.js,--spec,test/specs/VisualRegression.js
-2023-04-21T12:44:41.711Z INFO @wdio/cli:launcher: Run onWorkerEnd hook
-2023-04-21T12:44:41.713Z INFO @wdio/cli:launcher: Run onComplete hook
-2023-04-21T12:44:41.735Z INFO @wdio/local-runner: Shutting down spawned worker
-2023-04-21T12:44:41.987Z INFO @wdio/local-runner: Waiting for 0 to shut down gracefully
+2023-04-21T13:28:06.236Z INFO chromedriver: Start Chromedriver (/Users/estehsan/node_modules/chromedriver/lib/chromedriver/chromedriver) with args --port=9515 --url-base=/
+2023-04-21T13:28:06.352Z INFO @wdio/cli:launcher: Run onWorkerStart hook
+2023-04-21T13:28:06.353Z INFO @wdio/local-runner: Start worker 0-0 with arg: run,wdio.conf.js,--spec,test/specs/VisualRegression.js
+2023-04-21T13:28:09.891Z INFO @wdio/cli:launcher: Run onWorkerEnd hook
+2023-04-21T13:28:09.891Z INFO @wdio/cli:launcher: Run onComplete hook
+2023-04-21T13:28:09.913Z INFO @wdio/local-runner: Shutting down spawned worker
+2023-04-21T13:28:10.164Z INFO @wdio/local-runner: Waiting for 0 to shut down gracefully
