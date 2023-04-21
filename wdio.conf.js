@@ -56,26 +56,19 @@ exports.config = {
   //
   capabilities: [
     {
-      maxInstances: 5,
+      maxInstances: 1,
       browserName: "chrome",
       acceptInsecureCerts: true,
+      "goog:chromeOptions": {
+        args: [
+          "--no-sandbox",
+          "--disable-infobars",
+          "--headless",
+          "--disable-gpu",
+          "--window-size=1440,735",
+        ],
+      },
     },
-
-    // {
-    //   maxInstances: 5,
-    //   browserName: "chrome",
-    //   acceptInsecureCerts: true,
-    //   "goog:chromeOptions": {
-    //     args: [
-    //       "--no-sandbox",
-    //       "--disable-infobars",
-    //       "--headless",
-    //       "--disable-gpu",
-    //       "--window-size=1440,735",
-    //     ],
-    //   },
-    // },
-    // },
 
     // {
     //   maxInstances: 1,

@@ -6,3 +6,4 @@ RUN npm install
 
 CMD npx wdio
 
+
