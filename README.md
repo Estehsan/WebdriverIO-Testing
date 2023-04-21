@@ -41,6 +41,16 @@ Simply run this command
 allure serve
 ```
 
+## 🕸️ Selenium and Kubernetes for Scalable Parallel Automated Tests
+
+Enable Minikube dashboard
+To enable Minikube dashboard, enter the following command:
+
+```
+minikube dashboard
+
+```
+
 ## Congratulations 🎉 👏 🥳
 
 Congratulations! You have successfully installed WebDriverIO using GitHub. You can now start using this powerful tool to test your web applications. If you have any questions or encounter any issues during the installation process, please consult the official WebDriverIO documentation or seek help from the WebDriverIO community.
