@@ -1,9 +1,4 @@
-const { default: ChromeDriverService } = require("wdio-chromedriver-service");
-const { join } = require("path");
-
 exports.config = {
-  outputDir: "all-logs",
-
   //
   // ====================
   // Runner Configuration
@@ -59,25 +54,14 @@ exports.config = {
       // maxInstances can get overwritten per capability. So if you have an in-house Selenium
       // grid with only 5 firefox instances available you can make sure that not more than
       // 5 instances get started at a time.
-      maxInstances: 1,
+      maxInstances: 5,
       //
       browserName: "chrome",
       acceptInsecureCerts: true,
-      "goog:chromeOptions": {
-        args: [
-          "--no-sandbox",
-          "--disable-infobars",
-          "--headless",
-          "--disable-gpu",
-          "--window-size=1440,735",
-        ],
-      },
       // If outputDir is provided WebdriverIO can capture driver session logs
       // it is possible to configure which logTypes to include/exclude.
       // excludeDriverLogs: ['*'], // pass '*' to exclude all driver session logs
       // excludeDriverLogs: ['bugreport', 'server'],
-      // }, {
-      //     browserName: 'firefox'
     },
   ],
   //
@@ -111,7 +95,7 @@ exports.config = {
   // with `/`, the base url gets prepended, not including the path portion of your baseUrl.
   // If your `url` parameter starts without a scheme or `/` (like `some/path`), the base url
   // gets prepended directly.
-  baseUrl: "https://www.volvocars.com/",
+  baseUrl: "https://www.volvocars.com",
   //
   // Default timeout for all waitFor* commands.
   waitforTimeout: 10000,
@@ -124,59 +108,10 @@ exports.config = {
   connectionRetryCount: 3,
   //
   // Test runner services
-  // Services take over a specific job you don't want to take care of. They enhance
+  // Services take over a specific job you      don't want to take care of. They enhance
   // your test setup with almost no effort. Unlike plugins, they don't add new
   // commands. Instead, they hook themselves up into the test process.
-
-  services: [
-    ["chromedriver"],
-
-    ["docker"],
-
-    [
-      "image-comparison",
-      // The options
-      {
-        // Some options, see the docs for more
-        baselineFolder: join(process.cwd(), "./Baseline/"),
-        formatImageName: "{tag}-{logName}-{width}x{height}",
-        screenshotPath: join(process.cwd(), "./ActualImages/"),
-        savePerInstance: true,
-        autoSaveBaseline: true,
-        blockOutStatusBar: true,
-        blockOutToolBar: true,
-        // NOTE: When you are testing a hybrid app please use this setting
-        isHybridApp: true,
-        // Options for the tabbing image
-        tabbableOptions: {
-          circle: {
-            size: 18,
-            fontSize: 18,
-            // ...
-          },
-          line: {
-            color: "#ff221a", // hex-code or for example words like `red|black|green`
-            width: 3,
-          },
-        },
-        // ... more options
-      },
-    ],
-  ],
-  dockerOptions: {
-    // The Docker image to use
-    image: "selenium/standalone-chrome:latest",
-
-    // The health check endpoint for the container
-    healthCheck: "http://localhost:4444",
-
-    // Additional Docker options
-    options: {
-      p: ["4444:4444"], // Map container port 4444 to host port 4444
-      shmSize: "2g", // Set shared memory size to 2 GB
-      // ... other Docker options
-    },
-  },
+  services: ["chromedriver"],
 
   // Framework you want to run your specs with.
   // The following are supported: Mocha, Jasmine, and Cucumber
@@ -198,16 +133,8 @@ exports.config = {
   // Test reporter for stdout.
   // The only one supported by default is 'dot'
   // see also: https://webdriver.io/docs/dot-reporter
-  reporters: [
-    [
-      "allure",
-      {
-        outputDir: "allure-results",
-        disableWebdriverStepsReporting: true,
-        disableWebdriverScreenshotsReporting: true,
-      },
-    ],
-  ],
+  reporters: ["spec"],
+
   //
   // Options to be passed to Mocha.
   // See the full list at http://mochajs.org/
@@ -309,15 +236,8 @@ exports.config = {
    * @param {boolean} result.passed    true if test has passed, otherwise false
    * @param {object}  result.retries   informations to spec related retries, e.g. `{ attempts: 0, limit: 0 }`
    */
-  afterTest: async function (
-    test,
-    context,
-    { error, result, duration, passed, retries }
-  ) {
-    if (!passed) {
-      await browser.takeScreenshot();
-    }
-  },
+  // afterTest: function(test, context, { error, result, duration, passed, retries }) {
+  // },
 
   /**
    * Hook that gets executed after the suite has ended
