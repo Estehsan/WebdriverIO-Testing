@@ -35,7 +35,7 @@ OR
 npm run wdio
 ```
 
-## Run Docker
+## Run Docker 🐟🐟
 
 To run the tests in Docker, you can use the following command:
 

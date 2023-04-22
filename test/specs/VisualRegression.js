@@ -1,4 +1,4 @@
-var Volvo = require("./test/pageobjects/volvo.page");
+var Volvo = require("../pageobjects/volvo.page");
 
 describe("Visual regression testing", () => {
   it("Accept Cookies", () => {
