@@ -26,7 +26,27 @@ cd WebdriverIO-Testing
 Once you have installed WebDriverIO, you can start using it to test your web applications. To run tests, you can use the following command:
 
 ```
-npx wdio wdio.conf.js
+npx run wdio wdio.conf.js
+```
+
+OR
+
+```
+npm run wdio
+```
+
+## Run Docker
+
+To run the tests in Docker, you can use the following command:
+
+```
+npx wdio run wdio.docker.conf.js
+```
+
+OR
+
+```
+npx run wdio:docker
 ```
 
 #### note: for parallel execution, uncomment the browser capabilties for other browsers in wdio.config.js
@@ -38,7 +58,9 @@ To generate an Allure report for your tests, you will need to perform this step:
 Simply run this command
 
 ```
+
 allure serve
+
 ```
 
 ## 🕸️ Selenium and Kubernetes for Scalable Parallel Automated Tests
@@ -47,6 +69,7 @@ Enable Minikube dashboard
 To enable Minikube dashboard, enter the following command:
 
 ```
+
 minikube dashboard
 
 ```
@@ -54,3 +77,11 @@ minikube dashboard
 ## Congratulations 🎉 👏 🥳
 
 Congratulations! You have successfully installed WebDriverIO using GitHub. You can now start using this powerful tool to test your web applications. If you have any questions or encounter any issues during the installation process, please consult the official WebDriverIO documentation or seek help from the WebDriverIO community.
+
+```
+
+```
+
+```
+
+```
