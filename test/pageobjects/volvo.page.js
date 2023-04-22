@@ -25,13 +25,9 @@ class VolvoPage {
   get MenuClose() {
     return $('[data-autoid="nav:siteNavCloseIcon"]');
   }
-  get OurCarMenu() {
-    return $('[data-autoid="nav:topNavCarMenu"]');
-  }
-
-  get OurCarMenuExpand() {
-    // nav:carMenuDesktop
-    return $("#nav:carMenuDesktop");
+  get HeroTitle() {
+    // return $$("(//h2)[1]");
+    return $('[data-autoid="ModelIntro"]//h2//');
   }
 }
 

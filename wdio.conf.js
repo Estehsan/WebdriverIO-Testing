@@ -1,3 +1,5 @@
+const { join } = require("path");
+
 exports.config = {
   //
   // ====================
@@ -113,6 +115,7 @@ exports.config = {
   // commands. Instead, they hook themselves up into the test process.
   services: [
     ["chromedriver"],
+    ["docker"],
     [
       "image-comparison",
       // The options

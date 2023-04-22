@@ -18,21 +18,6 @@ describe("Video Testing with WebdriverIO", async () => {
     console.log("Cookies accepted");
   });
 
-  it("Testimonials Video", async () => {
-    (await Volvo.VideoTestimonials).scrollIntoView();
-    // wait
-    await Volvo.VideoTestimonials.click();
-    // await browser.pause(3000);
-
-    // await expect(Volvo.VideoTestimonialsVideo).toBeDisplayed();
-  });
-
-  // it("tests VideoTest", async () => {
-  //   await browser.setWindowSize(997, 706);
-  //   await Volvo.HeroVideo.click();
-  //   // await browser.pause(3000);
-  // });
-
   it("It should expand the menu when clicked", async () => {
     await Volvo.MainMenu.click();
 
@@ -48,13 +33,15 @@ describe("Video Testing with WebdriverIO", async () => {
     await expect(Volvo.MenuExpand).toBeDisplayed(false);
   });
 
-  // it("It should expand the menu when clicked", async () => {
-  //   await Volvo.OurCarMenu.click();
-  //   // await expect(Volvo.OurCarMenuExpand).toBeDisplayed();
-  // });
+  it("Hero Section Title", async () => {
+    // get the title
+    const elem = await $('section[data-autoid="ModelIntro"] h2');
+    const title = await elem.getText();
 
-  // it("It should close the menu when clicked", async () => {
-  //   await Volvo.OurCarMenuClose.click();
-  //   await expect(Volvo.OurCarMenuExpand).toBeDisplayed(false);
-  // });
+    console.log(title + "😋😋😋😋 is the title");
+
+    await expect(title).toEqual(
+      "Ideas that change the world are often the most controversial."
+    );
+  });
 });
