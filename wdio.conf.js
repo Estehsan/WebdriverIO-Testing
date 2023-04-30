@@ -52,19 +52,29 @@ exports.config = {
   // https://saucelabs.com/platform/platform-configurator
   //
   capabilities: [
+    // If you want to run on Chrome
     {
-      // maxInstances can get overwritten per capability. So if you have an in-house Selenium
-      // grid with only 5 firefox instances available you can make sure that not more than
-      // 5 instances get started at a time.
       maxInstances: 5,
-      //
       browserName: "chrome",
       acceptInsecureCerts: true,
-      // If outputDir is provided WebdriverIO can capture driver session logs
-      // it is possible to configure which logTypes to include/exclude.
-      // excludeDriverLogs: ['*'], // pass '*' to exclude all driver session logs
-      // excludeDriverLogs: ['bugreport', 'server'],
     },
+
+    // UNCOMMEN BELOW If you want to run on EDGE, chrome AND FIREFOX
+    // {
+    //   maxInstances: 1,
+    //   browserName: "chrome",
+    //   acceptInsecureCerts: true,
+    // },
+    // {
+    //   maxInstances: 1,
+    //   browserName: "MicrosoftEdge",
+    //   acceptInsecureCerts: true,
+    // },
+    // {
+    //   maxInstances: 1,
+    //   browserName: "firefox",
+    //   acceptInsecureCerts: true,
+    // },
   ],
   //
   // ===================
@@ -97,10 +107,10 @@ exports.config = {
   // with `/`, the base url gets prepended, not including the path portion of your baseUrl.
   // If your `url` parameter starts without a scheme or `/` (like `some/path`), the base url
   // gets prepended directly.
-  baseUrl: "https://www.volvocars.com",
+  baseUrl: "https://www.volvocars.com/",
   //
   // Default timeout for all waitFor* commands.
-  waitforTimeout: 10000,
+  waitforTimeout: 70000,
   //
   // Default timeout in milliseconds for request
   // if browser driver or grid doesn't send response

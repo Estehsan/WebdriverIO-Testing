@@ -26,7 +26,7 @@ cd WebdriverIO-Testing
 Once you have installed WebDriverIO, you can start using it to test your web applications. To run tests, you can use the following command:
 
 ```
-npx run wdio wdio.conf.js
+npx wdio run  wdio.conf.js
 ```
 
 OR
